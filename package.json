@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-plugin-part",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use the ::part() pseudo-element in Tailwind",
   "main": "./exports/index.js",
   "module": "./exports/index.js",

@@ -1,7 +1,7 @@
 {
   "name": "tailwindcss-plugin-part",
   "version": "1.0.0",
-  "description": "A variety of simple components that match an aria-role",
+  "description": "Use the ::part() pseudo-element in Tailwind",
   "main": "./exports/index.js",
   "module": "./exports/index.js",
   "types": "./exports/index.d.ts",
@@ -30,8 +30,12 @@
     "test": "web-test-runner"
   },
   "keywords": [
-    "web-components",
-    "aria"
+    "tailwindcss",
+    "tailwind",
+    "plugin",
+    "webcomponents",
+    "part",
+    "shadowdom"
   ],
   "license": "MIT",
   "repository": "git@github.com:KonnorRogers/tailwindcss-plugin-part.git",

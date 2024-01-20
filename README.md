@@ -36,7 +36,7 @@ Here's an example where we set the background-color to `red-500` on a shadow roo
 and then on `:hover`, we change the background color to `blue-500`
 
 ```html
-<my-web-component class="part-[base]:bg-red-500 part[base]:hover:bg-blue">
+<my-web-component class="part-[base]:bg-red-500 part-[base]:hover:bg-blue">
   <ShadowRoot>
     <div part="base"></div>
   </ShadowRoot>

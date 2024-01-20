@@ -1,3 +1,8 @@
+## NOTICE
+
+> This plugin has moved!
+> <https://github.com/KonnorRogers/tailwindcss-plugin-custom-elements>
+
 # Purpose
 
 Make the `::part()` CSS selector for Shadow DOM easier to work with.

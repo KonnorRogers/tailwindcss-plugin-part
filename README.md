@@ -15,11 +15,10 @@ npm install tailwindcss-plugin-part
 ## Adding the plugin
 
 ```js
-const { TailwindcssPluginPart } = require('tailwindcss-plugin-part')
+import { TailwindcssPluginPart } from 'tailwindcss-plugin-part'
 
-module.exports = {
+export default {
   plugins: [
-    // ...
     TailwindcssPluginPart()
   ]
 }
@@ -27,8 +26,17 @@ module.exports = {
 
 ## Syntax
 
+The basic syntax is:
+
+`part-[{{ partName }}]:{{ otherStuff }}`
+
+## Example
+
+Here's an example where we set the background-color to `red-500` on a shadow root part with the name of `"base"`,
+and then on `:hover`, we change the background color to `blue-500`
+
 ```html
-<my-web-component class="part-[base]:bg-red-500 part[base]:hover:bg-red-600">
+<my-web-component class="part-[base]:bg-red-500 part[base]:hover:bg-blue">
   <ShadowRoot>
     <div part="base"></div>
   </ShadowRoot>
